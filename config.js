@@ -1,8 +1,8 @@
 /**
- * Configuration File - EMOTIONAL VERSION
+ * Configuration File - rational VERSION
  */
 
-const AI_STYLE = "emotional";
+const AI_STYLE = "rational";
 
 const API_CONFIG = {
     provider: "groq",

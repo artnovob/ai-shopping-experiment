@@ -7,7 +7,7 @@ const AI_STYLE = "emotional";
 const API_CONFIG = {
     provider: "groq",
     apiKey: "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",
-    model: "mixtral-8x7b-32768",
+    model: "llama-3.1-70b-versatile",  // ← НОВАЯ МОДЕЛЬ (была mixtral-8x7b-32768)
     useMockResponses: false
 };
 

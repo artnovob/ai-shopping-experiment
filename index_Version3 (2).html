@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CommerceAdvisor GPT - Shopping Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Product Section -->
+        <div class="product-section">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="headphones.jpg" alt="Wireless Headphones">
+                </div>
+                <div class="product-info">
+                    <h1 class="product-name">Wireless Over-Ear Headphones</h1>
+                    <div class="product-price">$149</div>
+                    <p class="product-description">
+                        These wireless over-ear headphones are designed for everyday listening, including music, online meetings, and travel. The product offers noise reduction technology, long battery life, and a comfortable design intended for extended use.
+                    </p>
+                    <div class="product-features">
+                        <h3>Key Features:</h3>
+                        <ul>
+                            <li>Active noise reduction technology</li>
+                            <li>Up to 30 hours of battery life</li>
+                            <li>Over-ear cushioned design</li>
+                            <li>Bluetooth wireless connectivity</li>
+                            <li>Touch controls</li>
+                            <li>Ambient sound mode</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Section -->
+        <div class="chat-section">
+            <div class="chat-header">
+                <h2>CommerceAdvisor GPT</h2>
+                <p class="chat-subtitle">AI shopping assistant</p>
+            </div>
+
+            <!-- Chat Messages Container -->
+            <div class="chat-messages" id="chatMessages">
+                <!-- Messages will be inserted here -->
+            </div>
+
+            <!-- Chat Input -->
+            <div class="chat-input-container">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    class="chat-input" 
+                    placeholder="Ask me about this product..."
+                    autocomplete="off"
+                >
+                <button id="sendBtn" class="send-button">Send</button>
+            </div>
+
+            <!-- Status -->
+            <div class="chat-footer">
+                <span id="questionCounter" class="question-counter"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

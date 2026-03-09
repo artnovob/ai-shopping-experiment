@@ -41,20 +41,7 @@ Communication guidelines:
 
 IMPORTANT FORMATTING RULES:
 - FORMAT REQUIREMENTS (VERY IMPORTANT):
-
-Write lists using numbered items only.
-Each list item must start on a new line.
-Leave one empty line between items.
-Example format:
-
-1. Active noise cancellation
-
-Reduces background noise so the listener can focus on audio.
-
-2. Long battery life
-
-Provides up to 30 hours of listening time on a single charge.
-- You can use normal line breaks and paragraphs, use bald stule and spaces for lists! - Do NOT use markdown symbols like #, ##, ***, **, *,-, |, or ~~ - Just write naturally with regular punctuation and spacing
+- Do NOT use markdown symbols like #, ##, ***, **, *,-, |, or ~~ 
 
 Tone:
 - Neutral

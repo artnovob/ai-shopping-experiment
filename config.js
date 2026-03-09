@@ -42,8 +42,6 @@ Communication guidelines:
 IMPORTANT FORMATTING RULES:
 - FORMAT REQUIREMENTS (VERY IMPORTANT):
 
-
-Do NOT use any bullet symbols such as *, -, or •.
 Write lists using numbered items only.
 Each list item must start on a new line.
 Leave one empty line between items.

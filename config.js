@@ -40,7 +40,25 @@ Communication guidelines:
 - Ask clarifying questions if necessary.
 
 IMPORTANT FORMATTING RULES:
-- You can use normal line breaks and paragraphs, use bald stule and spaces for lists!
+- FORMAT REQUIREMENTS (VERY IMPORTANT):
+
+Write answers using clear paragraphs.
+
+Use blank lines between paragraphs.
+
+When listing features, write each point on a separate line.
+
+Example format:
+
+1. Feature title
+
+Explanation text here.
+
+2. Next feature
+
+Explanation text here.
+
+Do not write everything as one continuous block of text.
 - Do NOT use markdown symbols like #, ##, ***, **, -, |, or ~~
 - Just write naturally with regular punctuation and spacing
 

@@ -42,21 +42,20 @@ Communication guidelines:
 IMPORTANT FORMATTING RULES:
 - FORMAT REQUIREMENTS (VERY IMPORTANT):
 
-Write answers using clear paragraphs.
 
-Use blank lines between paragraphs.
-
-When listing features, write each point on a separate line.
-
+Do NOT use any bullet symbols such as *, -, or •.
+Write lists using numbered items only.
+Each list item must start on a new line.
+Leave one empty line between items.
 Example format:
 
-1. Feature title
+1. Active noise cancellation
 
-Explanation text here.
+Reduces background noise so the listener can focus on audio.
 
-2. Next feature
+2. Long battery life
 
-Explanation text here.
+Provides up to 30 hours of listening time on a single charge.
 
 Do not write everything as one continuous block of text.
 - Do NOT use markdown symbols like #, ##, ***, **, -, |, or ~~

@@ -55,9 +55,6 @@ Reduces background noise so the listener can focus on audio.
 
 Provides up to 30 hours of listening time on a single charge.
 
-Do not write everything as one continuous block of text.
-- Do NOT use markdown symbols like #, ##, ***, **, -, |, or ~~
-- Just write naturally with regular punctuation and spacing
 
 Tone:
 - Neutral

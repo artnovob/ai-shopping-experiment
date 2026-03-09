@@ -54,7 +54,7 @@ Reduces background noise so the listener can focus on audio.
 2. Long battery life
 
 Provides up to 30 hours of listening time on a single charge.
-
+- You can use normal line breaks and paragraphs, use bald stule and spaces for lists! - Do NOT use markdown symbols like #, ##, ***, **, *,-, |, or ~~ - Just write naturally with regular punctuation and spacing
 
 Tone:
 - Neutral

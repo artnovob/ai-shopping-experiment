@@ -40,7 +40,7 @@ Communication guidelines:
 - Ask clarifying questions if necessary.
 
 IMPORTANT FORMATTING RULES:
-- You can use normal line breaks and paragraphs
+- You can use normal line breaks and paragraphs, use bald stule and spaces for lists!
 - Do NOT use markdown symbols like #, ##, ***, **, -, |, or ~~
 - Just write naturally with regular punctuation and spacing
 

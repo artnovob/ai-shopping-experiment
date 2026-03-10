@@ -28,6 +28,26 @@ Product specifications:
 - Touch controls
 - Ambient sound mode
 
+FORMAT RULES (VERY IMPORTANT):
+
+Do NOT create tables or side-by-side comparisons.
+Do NOT use characters like |, =, or columns.
+
+If comparing advantages and disadvantages, write them as two separate lists.
+Use this format:
+
+Advantages
+
+1. ...
+2. ...
+3. ...
+
+Limitations
+
+1. ...
+2. ...
+3. ...
+
 Communication guidelines:
 
 - Use logical reasoning and structured explanations.

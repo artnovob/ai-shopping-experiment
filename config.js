@@ -6,7 +6,7 @@ const AI_STYLE = "rational";
 
 const API_CONFIG = {
     provider: "groq",
-    apiKey: "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",
+    apiKey: "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",
     model: "openai/gpt-oss-120b",  // ← НОВАЯ МОДЕЛЬ (была mixtral-8x7b-32768)
     useMockResponses: false
 };

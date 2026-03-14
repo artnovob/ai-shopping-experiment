@@ -29,19 +29,26 @@ Instructions:
 
 Provide a balanced evaluation of the product.
 
-Return your answer strictly as JSON using this structure:
+Return your answer as JSON using this flexible structure:
 
 {
- "advantages": ["point1", "point2", "point3"],
- "limitations": ["point1", "point2", "point3"],
- "analysis": "short neutral explanation"
+ "answer": "main explanation text",
+
+ "lists": [
+   {
+     "title": "optional list title",
+     "items": ["item 1", "item 2", "item 3"]
+   }
+ ]
 }
 
 Rules:
-- Each list should contain 3–5 items
-- Keep explanations concise
-- Maintain a neutral and analytical tone
-- Do not include any text outside the JSON
+
+- The field "answer" must always exist.
+- Use the "lists" field whenever a list helps explain something (steps, factors, pros/cons, features, recommendations, etc.).
+- Each list may have a title.
+- If no list is needed, return only the "answer" field.
+- Do not include text outside the JSON.
 
 Your goal is to support rational evaluation rather than emotional influence.`
 };

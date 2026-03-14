@@ -242,33 +242,31 @@ function formatAIResponse(text){
 
         let output = "";
 
-        if(data.advantages){
+        if(data.answer){
+            output += data.answer + "\n\n";
+        }
 
-            output += "Advantages\n\n";
+        if(data.lists && Array.isArray(data.lists)){
 
-            data.advantages.forEach((a,i)=>{
-                output += `${i+1}. ${a}\n`;
+            data.lists.forEach(list => {
+
+                if(list.title){
+                    output += list.title + "\n\n";
+                }
+
+                if(list.items){
+                    list.items.forEach((item,i)=>{
+                        output += `${i+1}. ${item}\n`;
+                    });
+                }
+
+                output += "\n";
+
             });
 
-            output += "\n";
         }
 
-        if(data.limitations){
-
-            output += "Limitations\n\n";
-
-            data.limitations.forEach((l,i)=>{
-                output += `${i+1}. ${l}\n`;
-            });
-
-            output += "\n";
-        }
-
-        if(data.analysis){
-            output += data.analysis;
-        }
-
-        return output;
+        return output.trim();
 
     }catch(e){
 
